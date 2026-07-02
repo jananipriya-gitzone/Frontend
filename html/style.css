@@ -1,0 +1,68 @@
+
+ #title{
+    margin: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(20, 28, 89);
+    background-color: rgb(252, 239, 252);
+    text-align: center;
+    font-size: 50px;
+
+}
+#name{
+    margin: 0%;
+     color: black;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 35px;
+}
+#cse{
+    margin: 0%;
+     color: rgb(144, 28, 28);
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 20px;
+
+}
+#aboutme{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+#skill{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+#edu{
+    margin: 0%;
+    padding: 0%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+
+}
+#edudetail{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    font-size: 12px;
+    margin: 0%;
+    margin-top: 20px;
+    padding: 0%;
+}
+
+#contact{
+    margin: 0%;
+    
+    padding: 0%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+  
+
+}
+#contactdetail{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    font-size: 12px;
+    margin: 0%;
+    margin-top: 20px;
+    padding: 0%;
+
+}
