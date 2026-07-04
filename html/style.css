@@ -47,6 +47,28 @@
     padding: 0%;
 }
 
+#project{
+     margin: 0%;
+    
+    padding: 0%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+
+}
+
+#projectdet{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid black;
+}
+
+
+#pro1,#pro2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: brown;
+}
 #contact{
     margin: 0%;
     
