@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mini Calculator</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <center>
+        <h1> CALCULATOR </h1><br><br>
+
+        <form class="calci" name="cal" >
+        <input type="text" placeholder="0" name="display" ><br><br>
+        <div class="buttons">
+        <input type="button" value="√"  onclick="cal.display.value+='√'" style="background-color: rgb(144, 11, 111);"/> 
+        <input type="button" value="π" onclick="cal.display.value+='π'"  style="background-color: rgb(144, 11, 111);"/> 
+        <input type="button" value="^" onclick="cal.display.value+='^'"  style="background-color: rgb(144, 11, 111);"/> 
+        <input type="button" value="!" onclick="cal.display.value+='!'"  style="background-color: rgb(144, 11, 111);"/><br> 
+        <input type="button" value="AC" onclick="cal.display.value=''" style="background-color: rgb(152, 22, 5);"/> 
+        <input type="button" value="()" onclick="cal.display.value+='()' "style="background-color: rgb(144, 11, 111);"/> 
+        <input type="button" value="%" onclick="cal.display.value+='%'" style="background-color: rgb(144, 11, 111);"/> 
+        <input type="button" value="÷" onclick="cal.display.value+='÷'" style="background-color: rgb(6, 88, 170);"/> <br>
+        <input type="button" value="7" onclick="cal.display.value+='7'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="8" onclick="cal.display.value+='8'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="9" onclick="cal.display.value+='9'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="x" onclick="cal.display.value+='x'" style="background-color: rgb(6, 88, 170);"/> <br>
+        <input type="button" value="4" onclick="cal.display.value+='4'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="5" onclick="cal.display.value+='5'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="6" onclick="cal.display.value+='6'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="-" onclick="cal.display.value+='-'" style="background-color: rgb(6, 88, 170);"/> <br>
+        <input type="button" value="1" onclick="cal.display.value+='1'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="2" onclick="cal.display.value+='2'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="3" onclick="cal.display.value+='3'"  style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="+" onclick="cal.display.value+='+'" style="background-color: rgb(6, 88, 170);"/><br>
+        <input type="button" value="0" onclick="cal.display.value+='0'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="." onclick="cal.display.value+='.'" style="background-color: rgb(246, 197, 138);"/> 
+        <input type="button" value="del" onclick="cal.display.value=''" style="background-color: rgb(246, 197, 138);"/>
+        <input type="button" value="=" onclick="cal.display.value+='='" style="background-color: rgb(5, 94, 6);"/> 
+        
+    
+        </div>
+       
+</form>
+
+
+        
+
+        </center>
+    </body>
+</html>

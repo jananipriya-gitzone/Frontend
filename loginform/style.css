@@ -1,0 +1,166 @@
+body,html{
+    margin:0;
+    padding:0;
+    height: 500px;
+    width:100%;
+}
+
+.main{
+    width:100%;
+    padding:0;
+    margin:0;
+    height:100vh;
+    
+    
+
+}
+.image{
+    width:80%;
+    height:750px;
+    flex-direction: row;
+    justify-content: center;
+    margin:9rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+}
+
+img{
+    
+    position: absolute;
+    top:7.04rem;
+    margin-left: 5rem;
+    width:720px;
+    height:603px;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+
+}
+.overview{
+    width:400px;
+    height:600px;
+    border:2px solid rgb(112, 109, 109);
+    margin-left:50rem;
+    position:relative;
+    top:5rem;
+    box-shadow: 2px 2px 2px rgb(163, 160, 160);
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+
+    
+}
+
+.head{
+    font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+    font-size: 4rem;
+    padding:1.7rem;
+    font-weight: bolder;
+    position: relative;
+    bottom: 0.20em;
+
+}
+.overview h3{
+    position:absolute;
+    top:7.30em;
+    
+    font-weight: lighter;
+    font-size: 1rem;
+    color:rgb(43, 42, 42);
+    margin:1.90rem;
+
+}
+
+.email{
+    position:absolute;
+    bottom:30em;
+    left:2.40em;
+    font-size: small;
+    font-style: normal;
+}
+
+.e-type{
+    position: absolute;
+    bottom:25em;
+    width:25em;
+    height:35px;
+    left:2.40em;
+    color: gray;
+    font-weight:lighter;
+    border: 1px solid  rgb(179, 184, 232);
+    background-color: rgb(212, 215, 240);
+    
+}
+.password{
+    position:relative;
+    top:2em;
+    left:2.20em;
+    font-size: 0.90em;
+    font-style: normal;
+    border:transparent;
+    
+    
+}
+
+.e-pass{
+
+    position: absolute;
+    bottom:19em;
+    width:25em;
+    height:35px;
+    left:2.40em;
+    color: gray;
+    font-weight:lighter;
+    border: transparent;
+    border: 1px solid  rgb(179, 184, 232);
+    background-color: rgb(212, 215, 240);
+    
+
+}
+
+
+p{
+    position:absolute;
+    top:22em;
+    left:16em;
+    font-weight: lighter;
+}
+p:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.login{
+    width:300px;
+    height:35px;
+    position: absolute;
+    bottom:5em;
+    left:3.50em;
+    border-radius: 10px;
+    background-color: rgb(51, 51, 245);
+    color:white;
+
+}
+
+.google{
+    position:relative;
+    top:4.30em;
+    left:4em;
+    font-size: 2rem;
+}
+
+.facebook{
+    position:relative;
+    top:4.25em;
+    left:5em;
+    font-size: 2rem;
+
+}
+
+.twit{
+
+    position:relative;
+    top:4.23em;
+    bottom:1em;
+    left:5.90em;
+    font-size: 2rem;
+
+}

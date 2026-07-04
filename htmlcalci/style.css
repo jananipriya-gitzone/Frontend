@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(65, 2, 19);
+    
+}
+    
+    h1::first-letter{
+    color:rgb(6, 165, 245);
+    font-weight: bolder;
+    font-size: 45px;
+    
+}
+h1{
+    color:rgb(47, 209, 242);
+    text-shadow: 6px 6px 6px rgb(11, 6, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body{
+    background: linear-gradient(to right,rgb(232, 38, 38),rgb(72, 8, 8));
+}
+
+input[type="text"]{
+    margin:20px;
+    border-radius: 8%;
+}
+.calci{
+    
+    border:2px;
+    background-color:beige;
+    border-style: solid;
+    width:350px;
+    height:500px;
+    box-shadow: inset 7px 3px 5px rgb(99, 102, 102);
+    border-radius: 4%;
+    
+}
+.calculator{
+    border:2px;
+    padding:50px;
+}
+input[type="text"] 
+{
+            width: 70%;
+            height: 90px;
+            text-align: right;
+            margin-bottom: 10px;
+            font-size: 50px;
+            box-shadow: inset 5px 2px 4px rgb(12, 12, 12);
+            
+}
+.buttons input {
+            width: 60px;
+            height: 40px;
+            margin: 5px;
+            font-size: 20px;
+            border: none;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: inset 5px 2px 4px rgb(16, 16, 16);
+        }
+::placeholder{
+    color:rgb(19, 15, 15);
+}
+
+input[type="button"]:hover{
+    color: red;
+    font-size: 25px;
+    
+}

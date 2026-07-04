@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+  
+}
+
+
+.start{
+    width:100%;
+    display: block;
+    text-align: center;
+    background-color:blue;
+    
+}
+#heading{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.info{
+    
+    color:rgb(255, 255, 255);
+    background-color: none;
+    padding-bottom: 8px;
+    
+}
+
+
+.inputs{
+    width:60%;
+    display: block;
+    align-items: center;
+    margin:auto;
+}
+
+
+#input-list{
+    width:80%;
+    height:40px;
+    outline: none;
+    margin-left: auto;
+    color:blue;
+
+
+}
+#addbtn{
+    padding:15px;
+    margin:auto;
+    background-color: blue;
+    color:azure;
+    font-size: 12px;
+    width:70px;
+    border-radius: 5px;
+}
+#todolist{
+    border: 2px solid gray;
+    box-shadow: 6px 8px 14px gray;
+    width:38vw;
+    height: 55vh;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+    list-style:circle;
+    background-color: rgb(255, 234, 208);
+    
+}
+
+li{
+    margin:8px 0;
+}
