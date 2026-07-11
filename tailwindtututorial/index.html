@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample tailwind project</title>
+    <!-- This is an Play CDN IN TAILWIND -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <!-- COLORS----------------------------------- -->
+    <!-- COLOR for text need the intensity level, levels upto 50 to 950 -->
+    <!-- impotantly no space in the class , Eg: text-teal-300 -->
+    <h1>Colors</h1>
+    <div class="bg-black">
+    <p class="text-teal-800"> Normal Tailwind limited color</p>
+    <p class="text-[#F54927]">Hexa value color</p>
+    <p class="text-[rgb(39,245,121)]"> Rgb color</p>
+    </div><br>
+
+
+    <!-- MARGIN AND PADDING-------------------------------------- -->
+     <!-- use tailwind cheetsheet - WEB:nerdcave.com/tailwind-cheat-sheet -->
+     <h1>Margin and Padding</h1> 
+     <div class="bg-yellow-400">
+        <p class="p-4 bg-blue-200">padding Try</p>
+        <p class="ml-9 mb-10 text-blue-600 bg-red-200">margin Try</p>
+        <h2 class="mx-3 bg-black text-white">Janani Priya</h2>
+      </div><br>
+
+
+      <!-- TYPOGRAPHY IN TAILWIND -->
+       <h1>Typograpy</h1>
+       <p class="text-2xl text-red-800 font-semibold"> Typograpy practice</p>
+       <!-- font family -->
+        <p class="text-2xl font-black font-sans"> sans font -normal heading</p>
+        <p class=" text-2xl  font-black font-serif"> serif font -Articles</p>
+        <p class="text-2xl font-black  font-mono"> mono font- codes</p>
+
+      <!-- line height -use "leading" -->
+       <div class="bg-yellow-200">
+       <p class="leading-9"> Line Height leading-9</p>
+       <p class="leading-5"> Line Height leading-5</p>
+       <p class="leading-2"> Line Height leading-2</p>
+       </div><br>
+
+       <!-- LETTER SPACING -USE "tracking-normal" -->
+        <div class="bg-teal-200">
+       <p class="tracking-normal"> Letter spacing- normal </p>
+       <p class="tracking-wider"> Letter spacing- wider</p>
+       <p class="tracking-widest"> Letter spacing- widest</p>
+       </div><br>
+
+       <!-- Alignment -->
+        <div class="bg-purple-300">
+            <p class="text-center">Alignment Practice center</p>
+            <p class="text-right">Alignment Practice right</p>
+            <p class="text-left">Alignment Practice left</p>
+            <p class="text-justify">Alignment Practice justify</p>
+        </div><br>
+
+
+        <!-- TEXT TRANSFORM -->
+          <div class="bg-blue-300">
+            <p class="uppercase"> text-transform Uppercase</p>
+            <p class="lowercase">text-transform lowercase</p>
+            <p class="capitalize">text-transform capitalise</p>
+            <p class="normal-case">text-transform normal case</p>
+        </div><br>
+
+        <!-- TEXT DECORATION -->
+          <div class="bg-yellow-200">
+            <p class="underline"> text-decoration underline</p>
+            <p class="line-through">text-decoration line-through</p>
+            <p class="overline">text-decoration overline</p>
+            <p class="no-underline">text-decoration no underline</p>
+        </div>
+
+        <!-- RESPONSIVENESS -->
+         <!-- md:medium screen
+         lg:large screen -->
+         <div class="bg-teal-200">
+          <p class="text-4xl md:text-6xl lg:text-9xl"> Responsive</p>
+          </div>
+<br><br>
+        <!-- BORDERS------- -->
+         <div class="bg-gray-400">
+         <h1 class="text-2xl  border-solid border-b-yellow-700 border-green-700 border-3 border-t-7  border-l-9 m-2">This is a border tutorial</h1>
+         <h1 class="rounded-lg border-3 m-2">Rounded</h1>
+         <h1 class="rounded-t-lg border-3 m-2">Rounded top</h1>
+         <h1 class="rounded-r-lg border-3 m-2">Rounded right</h1>
+         
+         </div>
+<br>
+         <!-- WIDTH AND HEIGHT -->
+
+          <!-- WIDTH -->
+          <div class="bg-yellow-200">
+          <div class="bg-pink-200 m-2 border-2 p-2 font-bold w-40 ">
+          <h1> This is width-pixel</h1>
+          </div>
+          <div class="bg-red-200  border-2 p-2 font-bold w-fill">
+          <h1> This is width-fill</h1>
+          </div>
+          <div class="bg-green-200 m-2 border-2 p-2 font-semibold w-1/3">
+          <h1> This is width-percentage</h1>
+          </div>
+          </div>
+<br>
+          <!-- HEIGHT -->
+           <div class="bg-red-600 h-screen">
+          <div class="bg-pink-200 m-2 border-2 p-2 font-bold h-12 ">
+          <h1> This is height-pixel</h1>
+          </div>
+          <div class="bg-red-200  border-2 p-2 font-bold h-fit ">
+          <h1> This is height-fit</h1>
+          </div>
+          <div class="bg-green-200 m-2 border-2 p-2 font-semibold h-1/4">
+          <h1> This is height-percentage</h1>
+          </div>
+          </div>
+
+          <br>
+
+
+
+
+
+
+</body>
+</html>

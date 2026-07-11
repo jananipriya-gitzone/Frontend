@@ -1,0 +1,23 @@
+A. class=
+     1."underline"  //TEXT DECORATION
+     2."font-bold" //TEXT WEIGHT
+     3."text-2xl"  //TEXT SIZE
+     4."text-teal-800"  //NORMAL TAILWIND COLORS
+     5."text-[#F54927]" //HEXADECIMAL
+     6."text-[rgb(39,245,121)]" //RGB
+     7."bg-black" //background color
+     8."p-4" //16px
+     9."pr-4" //padding right
+     10. "pl-3, pt-3,pb-1" // padding left, top, bottom
+     11. "px-3" //PADDING IN LEFT AND RIGHT ONLY
+     12."py-2"  //PADDING IN TOP AND BOOTOM ONLY
+     13 "m-2,mr-3,ml-4,mx-3,my-4" //SAME FOR MARGIN
+     14. font-semibold, light etc... //FONT WEIGHT
+     15.font-snas, serif,mono //FONT FAMILY
+     16. leading-3 // LINE HEIGHT
+     17. tracking-normal //LETTER SPACING
+     18, text-center,right,left,justify //TEXT ALIGNMENT
+     19. uppercase,lowercase,capitalize //TEXT TRANSFORM
+     20. underline, line-through,overline //TEXT DECORATION
+     21, md:text-2xl,  lg:text-9xl //MEDIUM AND LARGE SCREEN
+     22. "border", border-2, border-t(top)
