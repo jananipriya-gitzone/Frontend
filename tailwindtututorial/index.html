@@ -109,7 +109,7 @@
           </div>
 <br>
           <!-- HEIGHT -->
-           <div class="bg-red-600 h-screen">
+           <div class="bg-red-600 ">
           <div class="bg-pink-200 m-2 border-2 p-2 font-bold h-12 ">
           <h1> This is height-pixel</h1>
           </div>
@@ -122,6 +122,117 @@
           </div>
 
           <br>
+          
+
+          <!-- DISPLAY AND OVERFLOW  -->
+           <!-- DISPLAY-------------------------- -->
+            <h3>display practice----------</h3><br>
+            <span class="bg-blue-200 m-2 inline-block h-32 w-33">This is a Display example inline-block</span>
+            <span class="bg-blue-200 m-2 block ">This is a Display example block</span>
+            <span class="bg-blue-200 m-2 inline h-32 w-33">This is a Display example inline</span>
+            <span class="bg-blue-200 m-2 hidden h-32 w-33">This is a Display example hidden</span>
+            <br>
+            <!-- OVERFLOW--------------------------------- --><br>
+            <!-- //overflow-hidden, scroll, auto, visible, overflow-x-auto,overflow-y-hidden -->
+            <h3>overflow practice-----------</h3>
+            <span class="bg-yellow-300 inline-block h-24 w-35 m-3 overflow-auto overflow-x-hidden">
+              this is a span
+              this is a span
+              this is a span
+              this is a span
+              this is a span
+              this is a span
+              this is a span
+              this is a span
+              this is a span
+            </span>
+
+
+             <!-- FLEX-------------------------- -->
+              <h1>Flex--------------</h1>
+              <!-- flex, flex-row,flex-col,flex-wrap,flex-1,flex-shrink-0 -->
+              <!-- justify-center,between,end,start,evenly,around -->
+               <!-- items-start,end,center -->
+              <div class="bg-pink-400 flex flex-row justify-evenly gap-3 flex-wrap ">
+                  <div class="bg-green-300 p-2 m-2">Flex box 1</div>
+                  <div class="bg-blue-300 p-2 m-2">Flex box 2</div>
+                  <div class="bg-red-400 p-2 m-2">Flex box 3</div>
+                  <div class="bg-yellow-300 p-2 m-2">Flex box 4</div>
+                  <div class="bg-teal-300 p-2 m-2">Flex box 5</div>
+                  <div class="bg-purple-400 p-2 m-2">Flex box 6</div>
+                  <div class="bg-red-500 p-2 m-2">Flex box 7</div>
+                  <div class="bg-green-500 p-2 m-2">Flex box 8</div>
+              </div>
+
+              <!-- ORDER -->
+               <div class="bg-purple-600 flex flex-row gap-1 ">
+                  <div class="bg-green-300 p-2 m-2 order-2">Home</div>
+                  <div class="bg-blue-300 p-2 m-2 order-1">Login</div>
+            
+              </div>
+
+              <!-- NAVBAR -->
+              <div class="bg-teal-600 flex flex-row justify-end gap-1 ">
+                  <div class="bg-green-300 p-2 m-2 ">Home</div>
+                  <div class="bg-blue-200 p-2 m-2 ">Login</div>
+                   <div class="bg-yellow-300 p-2 m-2 ">Contact</div>
+                  <div class="bg-pink-300 p-2 m-2 ">Store</div>
+            
+              </div>
+
+              <br><br>
+              <h1>Grid practice---------</h1>
+
+              <!-- GRID------------------------------- -->
+               <!-- grid,grid-cols-2, grid-rows-2 -->
+                <!-- col-span-2 -->
+               <div class="bg-yellow-500 grid gird-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-2 gap-y-6">
+                  <div class=" col-span-2 bg-pink-500 h-35">Home</div>
+                  <div class=" bg-pink-500 h-35">Login</div>
+                  <div class="bg-pink-500 h-35">contact</div>   
+                  <div class=" bg-pink-500 ">Home</div>
+                  <div class=" bg-pink-500 h-35">Login</div>
+                  <div class="bg-pink-500 h-35">contact</div>   
+                 
+               </div><br>
+
+
+               <div class="grid grid-cols-4 ">
+                <div class="bg-red-300 col-span-1 h-50">Navigation</div>
+                <div class="bg-red-400 col-span-3 h-50">Content</div>
+               </div><br><br>
+
+
+               <!-- INTERACTIVITY-------------------------------------------- -->
+
+               <!-- Hover----- -->
+                <h1>Hover concept---------------</h1>
+                <div class="m-4 ">
+                  <button class="bg-blue-700 rounded p-2 text-white hover:bg-blue-500">Submit</button>
+                  <!-- FOCUS -->
+                  <input type="text" class="border-2 p-2 rounded  focus:ring-3 focus:ring-blue-700">
+                  <!-- ACTIVE -->
+                  <button class="bg-red-700 rounded p-2 text-white active:scale-90 active:bg-blue-500">Reset</button>
+                  <br><br>
+                  <!-- GROUP HOVER -->
+                   <h1>Group hover</h1>
+                   <div class="bg-gray-300 p-3 rounded hover:scale-90 group transition duration-300 ease-in-out shadow-md hover:shadow-xl hover:opacity-40">
+                    <div class="group-hover:text-red-800 text-3xl font-bold transition ">This is a </div>
+                    <div class="group-hover:text-red-800 text-3xl font-bold transition ">group</div>
+                    <div class="group-hover:text-red-800 text-3xl font-bold transition ">hover</div>
+                   </div>
+
+                   <br>
+                   <h1>accent for checkbox,radiobutton</h1>
+                   <input type="checkbox" class="accent-red-500 disabled:opacity-90" disabled>
+
+                </div><br>
+                
+                <!-- DARK MODE SUPPORT----------- -->
+                 <h1>Dark mode support--------</h1>
+                 <button class="bg-blue-700 rounded m-3 p-2 text-white dark:bg-gray-400">Button</button>
+
+
 
 
 
