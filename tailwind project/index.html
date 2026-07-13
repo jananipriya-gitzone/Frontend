@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind home page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-gray-100 dark:bg-gray-900">
+    <!-- Menu bar -->
+    <div class="text-white flex  h-12 bg-blue-900 p-2 ">
+        <div class="">Food Cart</div>
+        <div class="space-x-4 ml-auto ">
+            <a href="#">Login</a>
+            <a href="#">Home</a>
+        </div>
+    </div>
+
+    <!-- Layout -->
+     <div class=" text-white flex justify-start items-start">
+        <!-- Sidebar -->
+        <div class="w-80 bg-blue-950 h-screen">
+            <div class="hover:bg-gray-900 m-2 p-2 rounded"><a href="#">Home</a></div>
+            <div class="hover:bg-gray-900 m-2 p-2 rounded"><a href="#">Cart</a></div>
+            <div class="hover:bg-gray-900 m-2 p-2 rounded"><a href="#">Dashboard</a></div>
+            <div class="hover:bg-gray-900 m-2 p-2 rounded"><a href="#">Profile</a></div>
+        </div>
+
+        <!-- Content -->
+        <div class="grid gris-cols-1 lg:grid-cols-4 md:grid-cols-3 w-500 ">
+            <div class="bg-red-400  text-2xl font-black text-white rounded m-2 p-2 h-60 hover:bg-red-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+            <div class="bg-blue-400  text-2xl font-black text-white rounded m-2 p-2 h-60 hover:bg-blue-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+            <div class="bg-yellow-400  text-2xl font-black text-white rounded m-2 p-2 h-60 hover:bg-yellow-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+            <div class="bg-pink-400  text-2xl font-black text-white rounded m-2 p-2 h-60   hover:bg-pink-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+            <div class="bg-teal-400  text-2xl font-black text-white rounded m-2 p-2 h-60  hover:bg-teal-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+            <div class="bg-green-400  text-2xl font-black text-white rounded m-2 p-2 h-60  hover:bg-green-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+            <div class="bg-purple-400  text-2xl font-black text-white rounded m-2 p-2 h-60  hover:bg-purple-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+            <div class="bg-gray-400  text-2xl font-black text-white rounded m-2 p-2 h-60  hover:bg-gray-600 transition duration-500 hover:scale-95">Fresh Meet</div>
+
+        </div>
+
+     </div>
+    
+</body>
+</html>
