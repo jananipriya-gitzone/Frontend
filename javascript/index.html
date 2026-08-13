@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    
+    <h1>Lets start javascript</h1>
+        <button  onclick="datetime()">click me to show date and time</button>
+    <p id="demo"></p>
+
+    
+    <script>
+        // alert("hai")
+        setTimeout( ()=>{
+                 document.querySelector("h1").innerHTML="Im changed"
+        },4000)//this is a async funtion
+        console.log(100)
+        console.log("Javascript")
+        document.write("javascript intro")
+
+        //var,let,const - KEYWORDS
+        var userName="JAnani"
+        let email="abc@gmail.com"
+        const age= 21;
+        console.log(userName)
+        console.log(email)
+        console.log(age)
+
+        //44:44
+
+        function datetime(){
+            document.getElementById('demo').innerHTML= Date()
+
+        }
+       
+       
+
+       
+       
+    </script>
+
+
+</body>
+</html>
